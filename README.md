@@ -6,16 +6,45 @@ To write a program to perform linear search and binary search using python progr
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
 ## Linear Search:
-1.	Start from the leftmost element of array[] and compare k with each element of array[] one by one.
-2.	If k matches with an element in array[] , return the index.
-3.	If k doesn’t match with any of elements in array[], return -1 or element not found.
+step 1:
+
+Start from the leftmost element of array[] and compare k with each element of array[] one by one.
+
+step 2:
+
+If k matches with an element in array[] , return the index.
+
+step 3:
+
+If k doesn’t match with any of elements in array[], return -1 or element not found.
+
 ## Binary Search:
-1.	Set two pointers low and high at the lowest and the highest positions respectively.
-2.	Find the middle element mid of the array ie. arr[(low + high)/2]
-3.	If x == mid, then return mid.Else, compare the element to be searched with m.
-4.	If x > mid, compare x with the middle element of the elements on the right side of mid. This is done by setting low to low = mid + 1.
-5.	Else, compare x with the middle element of the elements on the left side of mid. This is done by setting high to high = mid - 1.
-6.	Repeat steps 2 to 5 until low meets high
+step 1:
+
+Set two pointers low and high at the lowest and the highest positions respectively.
+
+step 2:
+
+Find the middle element mid of the array ie. arr[(low + high)/2]
+
+step 3:
+
+If x == mid, then return mid.Else, compare the element to be searched with m.
+
+step 4:
+
+
+If x > mid, compare x with the middle element of the elements on the right side of mid. This is done by setting low to low = mid + 1.
+
+step 5:
+
+
+Else, compare x with the middle element of the elements on the left side of mid. This is done by setting high to high = mid - 1.
+
+step 6:
+
+
+Repeat steps 2 to 5 until low meets high
 ## Program:
 i	#Use a linear search method to match the item in a list.
 ```
@@ -43,7 +72,7 @@ else:
 
 
 ```
-ii	# Find the element in a list using Binary Search(Iterative Method).
+ii	 Find the element in a list using Binary Search(Iterative Method).
 ```
 ''' 
 Program to find the element in a list using Binary Search(Iterative Method)..
@@ -77,7 +106,7 @@ else:
 
 
 ```
-iii	# Find the element in a list using Binary Search (recursive Method).
+iii	Find the element in a list using Binary Search (recursive Method).
 ```
 ''' 
 Program to find the element in a list using Binary Search (recursive Method).
@@ -110,12 +139,13 @@ else:
     
 
 ```
-## Sample Input and Output
-
-![output](image.png)![output](image-3.png)![output](image-4.png)
-
-
-
+## output
+## Find the element in a list using Binary Search(Iterative Method).
+![image](https://github.com/ajinajoshpin/Search-Algorithm/assets/148514578/41d6a8a3-a6fa-4edb-9910-649f4a62a6a8)
+ ## Find the element in a list using Binary Search(Iterative Method).
+![image](https://github.com/ajinajoshpin/Search-Algorithm/assets/148514578/0e7511f8-10b9-4a17-ae8c-91777d5c41b1)
+## Find the element in a list using Binary Search (recursive Method)
+![image](https://github.com/ajinajoshpin/Search-Algorithm/assets/148514578/edf61a9f-001a-4a12-a413-27a3e18d2ddf)
 
 ## Result
 Thus the linear search and binary search algorithm is implemented using python programming.
